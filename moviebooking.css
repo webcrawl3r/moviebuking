@@ -1,0 +1,134 @@
+.movieSeat {
+	width:30px;
+	height:30px;
+	border-style:solid;
+	margin-left: 10px;
+}
+
+.checkbox { 
+	color:grey;
+	background-color: white;
+	width:28px;
+}
+
+.checkbox.checked { 
+	color:red;
+	background-color: red;
+	width:28px; 
+}
+
+.checkbox.selected { 
+	color:green;
+	background-color: green;
+	width:28px; 
+}
+
+#userName,#noOfSeats {
+	width:50%;
+	margin-left: 5%;
+	height:30px;
+}
+
+
+ul {
+	display : inline-block;
+	padding-left: 0px;
+} 
+
+
+table, th, td {
+    border: solid grey;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.seatUI {
+	height:30px;
+	width: 28px;
+	border-style:solid;
+}
+
+
+@media screen and (max-width:360px) {
+	#userName,#noOfSeats {
+		margin-bottom: 10px;
+		width:90%;
+		margin-left: 5%;
+		height:40px;
+	}
+	.checkbox { 
+		width:23px;
+	}
+
+	.checkbox.checked { 
+		width:23px; 
+	}
+
+	.checkbox.selected { 
+		width:23px; 
+	}
+	.seatUI {
+		width: 23px;
+	}
+	#seatUIBlock {
+		padding-left: 0px;
+	}
+}
+
+#userInput {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#userDetails {
+    width: 100%;  
+    margin-top: 4%; 
+    margin-bottom: 10%; 
+}
+
+#seatsBookedDetails {
+    margin-top: 13%; 
+}
+
+.seatState {
+	width:30px;
+	height:30px;
+	display:inline-block;
+}
+
+#screenBlock {
+	height:40px;
+	background-color:#455A64;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:white;
+	text-align:center;
+	padding-top:1px;
+}
+
+#backRed {
+	background-color:red;
+}
+
+#backGreen {
+	background-color: green;
+}
+
+#backWhite {
+	background-color: white;
+	border-style:solid;
+	border-color:grey;
+}
+
+#startSelect, #confirmSelect {
+	background-color: white;
+	border-color: #455A64;
+	border-style: solid;
+	border-width:5px;
+	color:grey;
+	font-size: 18px;
+	height:45px;
+}
